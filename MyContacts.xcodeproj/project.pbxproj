@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9097407C1DAC4D3600059A5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9097407B1DAC4D3600059A5B /* AppDelegate.swift */; };
+		9097407E1DAC4D3600059A5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9097407D1DAC4D3600059A5B /* ViewController.swift */; };
+		909740811DAC4D3600059A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9097407F1DAC4D3600059A5B /* Main.storyboard */; };
+		909740841DAC4D3600059A5B /* MyContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 909740821DAC4D3600059A5B /* MyContacts.xcdatamodeld */; };
+		909740861DAC4D3600059A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909740851DAC4D3600059A5B /* Assets.xcassets */; };
+		909740891DAC4D3600059A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909740871DAC4D3600059A5B /* LaunchScreen.storyboard */; };
+		909740921DAC4D7D00059A5B /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909740901DAC4D7D00059A5B /* Contact+CoreDataProperties.swift */; };
+		909740931DAC4D7D00059A5B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909740911DAC4D7D00059A5B /* Contact.swift */; };
+		909740951DAC56EF00059A5B /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909740941DAC56EF00059A5B /* ContactTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		909740781DAC4D3600059A5B /* MyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9097407B1DAC4D3600059A5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9097407D1DAC4D3600059A5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		909740801DAC4D3600059A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		909740831DAC4D3600059A5B /* MyContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContacts.xcdatamodel; sourceTree = "<group>"; };
+		909740851DAC4D3600059A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		909740881DAC4D3600059A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9097408A1DAC4D3600059A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909740901DAC4D7D00059A5B /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		909740911DAC4D7D00059A5B /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		909740941DAC56EF00059A5B /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		909740751DAC4D3600059A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9097406F1DAC4D3600059A5B = {
+			isa = PBXGroup;
+			children = (
+				909740901DAC4D7D00059A5B /* Contact+CoreDataProperties.swift */,
+				909740911DAC4D7D00059A5B /* Contact.swift */,
+				9097407A1DAC4D3600059A5B /* MyContacts */,
+				909740791DAC4D3600059A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		909740791DAC4D3600059A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				909740781DAC4D3600059A5B /* MyContacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9097407A1DAC4D3600059A5B /* MyContacts */ = {
+			isa = PBXGroup;
+			children = (
+				9097407B1DAC4D3600059A5B /* AppDelegate.swift */,
+				9097407D1DAC4D3600059A5B /* ViewController.swift */,
+				9097407F1DAC4D3600059A5B /* Main.storyboard */,
+				909740851DAC4D3600059A5B /* Assets.xcassets */,
+				909740871DAC4D3600059A5B /* LaunchScreen.storyboard */,
+				9097408A1DAC4D3600059A5B /* Info.plist */,
+				909740821DAC4D3600059A5B /* MyContacts.xcdatamodeld */,
+				909740941DAC56EF00059A5B /* ContactTableViewController.swift */,
+			);
+			path = MyContacts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		909740771DAC4D3600059A5B /* MyContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9097408D1DAC4D3600059A5B /* Build configuration list for PBXNativeTarget "MyContacts" */;
+			buildPhases = (
+				909740741DAC4D3600059A5B /* Sources */,
+				909740751DAC4D3600059A5B /* Frameworks */,
+				909740761DAC4D3600059A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyContacts;
+			productName = MyContacts;
+			productReference = 909740781DAC4D3600059A5B /* MyContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		909740701DAC4D3600059A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					909740771DAC4D3600059A5B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 909740731DAC4D3600059A5B /* Build configuration list for PBXProject "MyContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9097406F1DAC4D3600059A5B;
+			productRefGroup = 909740791DAC4D3600059A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				909740771DAC4D3600059A5B /* MyContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		909740761DAC4D3600059A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909740891DAC4D3600059A5B /* LaunchScreen.storyboard in Resources */,
+				909740861DAC4D3600059A5B /* Assets.xcassets in Resources */,
+				909740811DAC4D3600059A5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		909740741DAC4D3600059A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909740921DAC4D7D00059A5B /* Contact+CoreDataProperties.swift in Sources */,
+				9097407E1DAC4D3600059A5B /* ViewController.swift in Sources */,
+				909740951DAC56EF00059A5B /* ContactTableViewController.swift in Sources */,
+				909740931DAC4D7D00059A5B /* Contact.swift in Sources */,
+				9097407C1DAC4D3600059A5B /* AppDelegate.swift in Sources */,
+				909740841DAC4D3600059A5B /* MyContacts.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9097407F1DAC4D3600059A5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909740801DAC4D3600059A5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		909740871DAC4D3600059A5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909740881DAC4D3600059A5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9097408B1DAC4D3600059A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9097408C1DAC4D3600059A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9097408E1DAC4D3600059A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9097408F1DAC4D3600059A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyContacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.MyContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		909740731DAC4D3600059A5B /* Build configuration list for PBXProject "MyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9097408B1DAC4D3600059A5B /* Debug */,
+				9097408C1DAC4D3600059A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9097408D1DAC4D3600059A5B /* Build configuration list for PBXNativeTarget "MyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9097408E1DAC4D3600059A5B /* Debug */,
+				9097408F1DAC4D3600059A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		909740821DAC4D3600059A5B /* MyContacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				909740831DAC4D3600059A5B /* MyContacts.xcdatamodel */,
+			);
+			currentVersion = 909740831DAC4D3600059A5B /* MyContacts.xcdatamodel */;
+			path = MyContacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 909740701DAC4D3600059A5B /* Project object */;
+}
