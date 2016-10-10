@@ -38,7 +38,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="UpdateContacts" trigger="accessoryAction" id="cfI-Od-t9i"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="UpdateContacts" id="Wbf-EI-Y3L"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -50,7 +50,7 @@
                     <navigationItem key="navigationItem" title="My Contacts" id="mxi-mS-0fL">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="wbZ-Sc-OsW">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" id="VEn-Ob-3oT"/>
+                                <segue destination="BYZ-38-t0r" kind="presentation" identifier="" id="VEn-Ob-3oT"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -179,6 +179,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="VEn-Ob-3oT"/>
+        <segue reference="Wbf-EI-Y3L"/>
     </inferredMetricsTieBreakers>
 </document>
